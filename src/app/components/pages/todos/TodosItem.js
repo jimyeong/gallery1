@@ -64,6 +64,11 @@ class TodosItem extends React.Component{
         })
     }
     onClicksaveTask(){
+        const oldTask = this.refs.inputValue.value();
+        this.props.saveTask(oldTask,newTask)
+        this.setState({
+            ISEDITING:false
+        })
 
 
     }

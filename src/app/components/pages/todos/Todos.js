@@ -15,10 +15,18 @@ class Todos extends React.Component{
     }
     renderTask(){
         return(
-            _.map(this.props.todos, (todo,i) => <TodosItem {...todo}/>)
+            _.map(this.props.todos, (todo,i) => <TodosItem {...todo} saveTask={this.saveTask(oldTask,newTask)}/>)
         )
-
     }
+    saveTask(oldTask,newTask){
+        const foundTask = _.find(this.props.todos, (todo => todo.title === oldTask))
+        foundTask.task = newTask;
+        this.setState({
+            this.props.todos: this.state.todos
+
+        })
+    }
+
 
     render(){
         console.log(this.renderTask());
