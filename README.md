@@ -33,7 +33,7 @@
 *.log
 *.sql
 *.sqlite
-
+gir
 # OS generated files #
 ######################
 .DS_Store

@@ -1,0 +1,12 @@
+.header{position:fixed; left:0; right:0; top:0; background-color:#fff; height:63px;
+  $this:&;
+
+  &__gnb{float:right; }
+  &__nav-item{float:left; font-weight:300;}
+  &__nav-link{display:block; font-size:18px; font-weight:400; padding:19px 20px;  color:#666; text-transform:capitalize;}
+  &__box{
+    &.dropdown{display:none;}
+    }
+  &__logo{ float:left; margin-left:15px; font-size:25px; font-weight:700; margin-top:15px;  color:#000; letter-spacing:-1px; }
+
+}

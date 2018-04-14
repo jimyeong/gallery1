@@ -1,0 +1,5 @@
+
+.home{height:100vh; text-align:center;
+  &:before{content:'';display:inline-block; height:100%; vertical-align:middle; }
+  &__tit{display:inline-block; font-size:45px; font-weight:700; color:#16b9ff; text-transform:uppercase;  }
+}
