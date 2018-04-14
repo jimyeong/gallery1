@@ -4,7 +4,7 @@
 *.xml
 .idea/
 .node_modules/
-
+git a
 
 # Compiled source #
 ###################
