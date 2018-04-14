@@ -1,9 +1,8 @@
 # gallery
 # ide #
 #######
-*.xml
 .idea/
-.node_modules/
+node_modules/
 git a
 
 # Compiled source #
